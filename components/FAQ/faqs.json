@@ -1,0 +1,42 @@
+[
+  {
+    "question": "When and where is UofTHacks happening?",
+    "answer": "Date and location will be shared publically soon."
+  },
+  {
+    "question": "I don't have an idea/team, what should I do?",
+    "answer": "No worries! Although hackathons are often a team experience, we welcome solo hackers as well! If you’d like to find a team before the event, we will be hosting a team formation opportunity shortly before the start of the hackathon!"
+  },
+  {
+    "question": "Do I have to know how to code beforehand?",
+    "answer": "Not at all — UofTHacks is a perfect opportunity to learn something new! Throughout the event we’ll have tons of workshops to help you get set up. We’ll also have mentors floating around to help out whenever you need it!"
+  },
+  {
+    "question": "Can I attend if I live far away?",
+    "answer": "Yes, you are more than welcome to attend!"
+  },
+  {
+    "question": "What can I hack on?",
+    "answer": "Anything! As we get closer to the date, we’ll provide you with access codes and APIs that'll be available to you at the hackathon. You’re also welcome to use your own tools."
+  },
+  {
+    "question": "How many hackers per team?",
+    "answer": "Each team can have up to 4 hackers!"
+  },
+  {
+    "question": "Are high school students eligible to apply?",
+    "answer": "Absolutely!"
+  },
+  {
+    "question": "What's the deadline for applying?",
+    "answer": "The deadline to apply for UofTHacks is January 31st, 2021."
+  },
+  {
+    "question": "What else should I know?",
+    "answer": "As an MLH event member, we expect all of our attendees to behave according to the Code of Conduct."
+  },
+  {
+    "question": "I still have a question...",
+    "answer": "We’d be happy to help! Send the inquiry over to contact@uofthacks.com and we’ll get back to you as soon as possible."
+  }
+]
