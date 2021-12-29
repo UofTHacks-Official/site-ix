@@ -29,14 +29,14 @@ export const Title = styled.h1`
   z-index: 4;
 `;
 export const SubTitle = styled.p`
-  font-family: "Proxima Nova";
+  font-family: "ProximaNova-Regular";
   color: #ffc564;
   font-size: 1.75rem;
   margin: 5px 0;
   z-index: 4;
 `;
 export const Date = styled.p`
-  font-family: "Proxima Nova";
+  font-family: "ProximaNova-Regular";
   color: #242424;
   font-size: 1.225rem;
   margin: 5px 0;
