@@ -51,6 +51,7 @@ jobs:
         cd ..
         cd ${{ github.event.repository.name }}
         cp -r ./.next ../main-push
+        cp -r ./public ../main-push
         cp ./package.json ../main-push
         cp ./package-lock.json ../main-push
         cd ../main-push
