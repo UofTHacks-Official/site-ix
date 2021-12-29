@@ -16,7 +16,7 @@ html, body{
 body{
   padding: 0;
   margin: 0;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "ProximaNova", sans-serif;
   color: #242424;
   font-style: normal;
   height: 100vh;
@@ -24,18 +24,18 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Filson Pro";
+  font-family: "FilsonPro";
   font-style: normal;
   font-weight: 500;
 }
 p, span {
-  font-family: "Proxima Nova";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Filson Pro";
+  font-family: "FilsonPro";
   src: url("/fonts/FilsonPro/FilsonProMedium.otf") format("opentype");
   font-style: normal;
   font-weight: 500;
@@ -43,16 +43,16 @@ p, span {
 }
 
 @font-face {
-  font-family: "Proxima Nova";
-  src: url("/fonts/ProximaNova/ProximaNova-Regular.otf")format("opentype");
+  font-family: "ProximaNova";
+  src: url("/fonts/ProximaNova/ProximaNova-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Proxima Nova";
-  src: url("/fonts/ProximaNova/ProximaNovaAlt-Bold.otf")format("opentype");
+  font-family: "ProximaNova";
+  src: url("/fonts/ProximaNova/ProximaNovaAlt-Bold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
