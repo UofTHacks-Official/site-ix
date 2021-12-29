@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "FilsonPro";
+  font-family: "Filson Pro";
   src: url("/public/fonts/FilsonPro/FilsonProMedium.otf");
   font-style: normal;
   font-weight: 500;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
   src: url("/public/fonts/ProximaNova/ProximaNova-Regular.otf");
   font-style: normal;
   font-weight: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
   src: url("/public/fonts/ProximaNova/ProximaNovaAlt-Bold.otf");
   font-style: normal;
   font-weight: bold;

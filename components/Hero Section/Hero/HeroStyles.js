@@ -21,7 +21,7 @@ export const LogoContainer = styled.div`
   z-index: 4;
 `;
 export const Title = styled.h1`
-  font-family: "FilsonPro";
+  font-family: "Filson Pro";
   font-weight: normal !important;
   font-size: 3rem;
   color: #242424;
@@ -29,14 +29,14 @@ export const Title = styled.h1`
   z-index: 4;
 `;
 export const SubTitle = styled.p`
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
   color: #ffc564;
   font-size: 1.75rem;
   margin: 5px 0;
   z-index: 4;
 `;
 export const Date = styled.p`
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
   color: #242424;
   font-size: 1.225rem;
   margin: 5px 0;
