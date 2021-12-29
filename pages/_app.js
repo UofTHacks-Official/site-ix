@@ -1,5 +1,4 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-import "../styles.css";
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -15,7 +14,7 @@ html, body{
 body{
   padding: 0;
   margin: 0;
-  font-family: "ProximaNova", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   color: #242424;
   font-style: normal;
   height: 100vh;
@@ -23,7 +22,7 @@ body{
 }
 
 @font-face {
-  font-family: "FilsonPro";
+  font-family: "Filson Pro";
   src: url("/fonts/FilsonPro/FilsonProMedium.otf") format("opentype");
   font-style: normal;
   font-weight: 500;
@@ -31,7 +30,7 @@ body{
 }
 
 @font-face {
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
   src: url("/fonts/ProximaNova/ProximaNova-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: normal;
@@ -39,7 +38,7 @@ body{
 }
 
 @font-face {
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
   src: url("/fonts/ProximaNova/ProximaNovaAlt-Bold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
