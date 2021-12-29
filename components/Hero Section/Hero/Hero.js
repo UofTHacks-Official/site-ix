@@ -36,9 +36,7 @@ const Hero = () => {
           <LogoContainer>
             <Logo />
           </LogoContainer>
-          <Title>
-            UofTHacks <span style={{ "font-size": "3.228rem" }}>IX</span>
-          </Title>
+          <Title>UofTHacks IX</Title>
           <SubTitle>Dream • Build • Inspire</SubTitle>
           <Date>February 4th-6th, 2022</Date>
           <ApplyBtn>Apply Now</ApplyBtn>
