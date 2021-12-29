@@ -32,6 +32,7 @@ const Home = () => {
           crossOrigin=""
         />
       </Head>
+      {/*
       <style jsx global>{`
         @font-face {
           font-family: "FilsonPro";
@@ -58,7 +59,7 @@ const Home = () => {
           font-weight: bold;
           font-display: swap;
         }
-      `}</style>
+      `}</style> */}
       <Hero />
       {/** About Section Component */}
       {/* <About /> */}

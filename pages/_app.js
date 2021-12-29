@@ -1,5 +1,4 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-import Font from "../components/Font";
 import "../styles.css";
 
 const GlobalStyle = createGlobalStyle`
@@ -21,17 +20,6 @@ body{
   font-style: normal;
   height: 100vh;
   width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "FilsonPro";
-  font-style: normal;
-  font-weight: 500;
-}
-p, span {
-  font-family: "ProximaNova";
-  font-style: normal;
-  font-weight: normal;
 }
 
 @font-face {
@@ -68,35 +56,7 @@ const theme = {
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <style jsx global>{`
-        @font-face {
-          font-family: "FilsonPro";
-          src: url("/fonts/FilsonPro/FilsonProMedium.otf") format("opentype");
-          font-style: normal;
-          font-weight: 500;
-          font-display: swap;
-        }
-
-        @font-face {
-          font-family: "ProximaNova";
-          src: url("/fonts/ProximaNova/ProximaNova-Regular.otf")
-            format("opentype");
-          font-style: normal;
-          font-weight: normal;
-          font-display: swap;
-        }
-
-        @font-face {
-          font-family: "ProximaNova";
-          src: url("/fonts/ProximaNova/ProximaNovaAlt-Bold.otf")
-            format("opentype");
-          font-style: normal;
-          font-weight: bold;
-          font-display: swap;
-        }
-      `}</style>
       <GlobalStyle />
-      <Font />
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />;
       </ThemeProvider>
