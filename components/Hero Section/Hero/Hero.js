@@ -47,22 +47,22 @@ const Hero = () => {
           </SponsorLink>
         </Content>
         <Layer0>
-          <Image src={Art0} layout="responsive" />
+          <Image src={Art0} layout="responsive" priority />
         </Layer0>
         <Layer1>
-          <Image src={Art1} layout="responsive" />
+          <Image src={Art1} layout="responsive" priority />
           <Layer1Cover />
         </Layer1>
         <Layer2>
-          <Image src={Art2} layout="responsive" />
+          <Image src={Art2} layout="responsive" priority />
           <Layer2Cover />
         </Layer2>
         <Layer3>
-          <Image src={Art3} layout="responsive" />
+          <Image src={Art3} layout="responsive" priority />
           <Layer3Cover />
         </Layer3>
         <Layer4>
-          <Image src={Art4} layout="responsive" />
+          <Image src={Art4} layout="responsive" priority />
         </Layer4>
         <Cover>
           <About />

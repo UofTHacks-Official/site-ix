@@ -23,7 +23,7 @@ body{
 
 @font-face {
   font-family: "Filson Pro";
-  src: url("/fonts/FilsonProMedium.otf");
+  src: url("/public/fonts/FilsonProMedium.otf");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -31,7 +31,7 @@ body{
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/fonts/ProximaNova-Regular.otf");
+  src: url("/public/fonts/ProximaNova-Regular.otf");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -39,7 +39,7 @@ body{
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/fonts/ProximaNovaAlt-Bold.otf");
+  src: url("/public/fonts/ProximaNovaAlt-Bold.otf");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
