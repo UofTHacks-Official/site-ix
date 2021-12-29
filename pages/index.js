@@ -3,6 +3,7 @@ import FAQ from "../components/FAQ Section/FAQ/FAQ";
 import Hero from "../components/Hero Section/Hero/Hero";
 import About from "../components/About Section/About/About";
 import styled from "styled-components";
+import Link from "next/link";
 
 const Wrapper = styled.main``;
 
@@ -12,6 +13,24 @@ const Home = () => {
     <Wrapper>
       <Head>
         <title>UofTHacks IX</title>
+        <link
+          rel="preload"
+          href="/fonts/Filson Pro/FilsonProMedium.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Proxima Nova/ProximaNova-Regular.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Proxima Nova/ProximaNovaAlt-Bold.otf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <Hero />
       {/** About Section Component */}
