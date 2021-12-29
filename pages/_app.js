@@ -36,7 +36,7 @@ p, span {
 
 @font-face {
   font-family: "Filson Pro";
-  src: url("/fonts/FilsonPro/FilsonProMedium.otf");
+  src: url("/fonts/FilsonPro/FilsonProMedium.otf") format("opentype");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -44,7 +44,7 @@ p, span {
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/fonts/ProximaNova/ProximaNova-Regular.otf");
+  src: url("/fonts/ProximaNova/ProximaNova-Regular.otf")format("opentype");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -52,7 +52,7 @@ p, span {
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/fonts/ProximaNova/ProximaNovaAlt-Bold.otf");
+  src: url("/fonts/ProximaNova/ProximaNovaAlt-Bold.otf")format("opentype");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
