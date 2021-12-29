@@ -50,9 +50,9 @@ jobs:
         #Changing to the repo current repo
         cd ..
         cd ${{ github.event.repository.name }}
-        cp -ur ./.next ../main-push
-        cp -u ./package.json ../main-push
-        cp -u ./package-lock.json ../main-push
+        cp -r ./.next ../main-push
+        cp ./package.json ../main-push
+        cp ./package-lock.json ../main-push
         cd ../main-push
 
         #Committing and pushing
