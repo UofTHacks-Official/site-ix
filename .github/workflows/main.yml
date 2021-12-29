@@ -40,7 +40,7 @@ jobs:
     - run: |
         #Pushing the developed code onto the main repo
         cd ..
-        git clone https://github.com/UofTHacks-Official/main-site.git main-push
+        git clone --no-checkout https://github.com/UofTHacks-Official/main-site.git main-push
         
         #Checking out the repo and switching branches
         cd main-push
