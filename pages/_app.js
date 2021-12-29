@@ -1,5 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Font from "../components/Font";
+import "../styles.css";
+
 const GlobalStyle = createGlobalStyle`
 * {
   box-sizing: border-box;
