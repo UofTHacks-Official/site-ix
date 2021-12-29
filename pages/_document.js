@@ -33,6 +33,13 @@ export default class MyDocument extends Document {
         <Head>
           <link
             rel="preload"
+            href="/fonts/FilsonProMedium.otf"
+            as="font"
+            type="font/otf"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
             href="/fonts/ProximaNovaAlt-Bold.otf"
             as="font"
             type="font/otf"

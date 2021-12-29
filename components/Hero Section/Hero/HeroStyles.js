@@ -29,21 +29,24 @@ export const Title = styled.h1`
   z-index: 4;
 `;
 export const SubTitle = styled.p`
-  font-family: "ProximaNova-Regular";
+  font-family: "Proxima Nova";
+  font-weight: normal !important;
   color: #ffc564;
   font-size: 1.75rem;
   margin: 5px 0;
   z-index: 4;
 `;
 export const Date = styled.p`
-  font-family: "ProximaNova-Regular";
+  font-family: "Proxima Nova";
+  font-weight: normal !important;
   color: #242424;
   font-size: 1.225rem;
   margin: 5px 0;
   z-index: 4;
 `;
 export const ApplyBtn = styled.button`
-  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-weight: bold !important;
   background-color: #4582c3;
   border: none;
   border-radius: 5px;
@@ -61,6 +64,8 @@ export const ApplyBtn = styled.button`
   }
 `;
 export const SponsorLink = styled.a`
+  font-family: "Proxima Nova";
+  font-weight: normal !important;
   font-size: 1.225rem;
   color: #4582c3;
   /* color: #242424; */
