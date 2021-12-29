@@ -15,19 +15,19 @@ const Home = () => {
         <title>UofTHacks IX</title>
         <link
           rel="preload"
-          href="/fonts/Filson Pro/FilsonProMedium.otf"
+          href="/fonts/FilsonPro/FilsonProMedium.otf"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/Proxima Nova/ProximaNova-Regular.otf"
+          href="/fonts/ProximaNova/ProximaNova-Regular.otf"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/Proxima Nova/ProximaNovaAlt-Bold.otf"
+          href="/fonts/ProximaNova/ProximaNovaAlt-Bold.otf"
           as="font"
           crossOrigin=""
         />
