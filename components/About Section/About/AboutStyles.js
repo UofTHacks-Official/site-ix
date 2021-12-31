@@ -4,7 +4,8 @@ export const Wrapper = styled.section`
   position: relative;
   min-height: 100vh;
   min-width: 100%;
-  padding-top: 8.85vh;
+  flex: 1;
+  /* padding-top: 8.85vh; */
   color: white;
 `;
 

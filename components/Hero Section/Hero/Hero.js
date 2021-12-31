@@ -23,27 +23,18 @@ import {
   Layer3,
   Layer4,
   Cover,
+  LayerCover,
   Layer1Cover,
   Layer2Cover,
   Layer3Cover,
+  ContentWrapper,
+  Wrapper2,
 } from "./HeroStyles";
 
 const Hero = () => {
   return (
     <Wrapper>
       <Parallax>
-        <Content>
-          <LogoContainer>
-            <Logo />
-          </LogoContainer>
-          <Title>UofTHacks IX</Title>
-          <SubTitle>Dream • Build • Inspire</SubTitle>
-          <Date>February 4th-6th, 2022</Date>
-          <ApplyBtn>Apply Now</ApplyBtn>
-          <SponsorLink href="mailto:contact@uofthacks.com">
-            Interested in sponsoring?
-          </SponsorLink>
-        </Content>
         <Layer0>
           <Image src={Art0} layout="responsive" priority />
         </Layer0>
@@ -61,11 +52,28 @@ const Hero = () => {
         </Layer3>
         <Layer4>
           <Image src={Art4} layout="responsive" priority />
+          <LayerCover />
         </Layer4>
-        <Cover>
-          <About />
-          <FAQ />
-        </Cover>
+        <Wrapper2>
+          <ContentWrapper>
+            <Content>
+              <LogoContainer>
+                <Logo />
+              </LogoContainer>
+              <Title>UofTHacks IX</Title>
+              <SubTitle>Dream ✦ Build ✦ Inspire</SubTitle>
+              <Date>February 4th-6th, 2022</Date>
+              <ApplyBtn>Apply Now</ApplyBtn>
+              <SponsorLink href="mailto:contact@uofthacks.com">
+                Interested in sponsoring?
+              </SponsorLink>
+            </Content>
+          </ContentWrapper>
+          <Cover>
+            <About />
+            <FAQ />
+          </Cover>
+        </Wrapper2>
       </Parallax>
     </Wrapper>
   );

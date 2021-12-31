@@ -1,19 +1,39 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.article`
+export const Wrapper = styled.main`
   display: flex;
+  flex-direction: column;
   align-items: center;
   height: 100%;
   width: 100%;
   background: linear-gradient(180deg, #f9f9f9 0%, #a4e0ff 100%);
   z-index: 0;
 `;
+
+export const Wrapper2 = styled.main`
+  display: block;
+  width: 100%;
+  min-height: 100%;
+`;
+
+export const ContentWrapper = styled.article`
+  position: relative;
+  flex: 1;
+  padding-top: 11vh;
+  min-height: 100vh;
+  min-width: 100%;
+  /* background-color: red; */
+  z-index: 4;
+`;
+
 export const Content = styled.section`
+  position: relative;
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   -webkit-box-align: center;
-  margin: 11.77vh auto auto auto;
+  /* margin: 11.76vh auto auto; */
   z-index: 4;
 `;
 export const LogoContainer = styled.div`
@@ -31,7 +51,7 @@ export const Title = styled.h1`
 export const SubTitle = styled.p`
   font-family: "Proxima Nova";
   font-weight: normal !important;
-  color: #ffc564;
+  color: #f573a0;
   font-size: 1.75rem;
   margin: 5px 0;
   z-index: 4;
@@ -67,8 +87,8 @@ export const SponsorLink = styled.a`
   font-family: "Proxima Nova";
   font-weight: normal !important;
   font-size: 1.225rem;
+  /* color: #4582c3; */
   color: #4582c3;
-  /* color: #242424; */
   text-decoration: none;
   z-index: 4;
   transition: all 0.2s;
@@ -108,18 +128,18 @@ export const Layer1 = styled(Layers)`
   /* height: 30%; */
   transform: translateZ(-150px) scale(2.5);
   z-index: 0;
-  left: -1%;
-  bottom: -30%;
+  bottom: -50%;
 `;
 export const Layer2 = styled(Layers)`
   transform: translateZ(-50px) scale(2);
   /* height: 20%; */
   z-index: 0;
-  bottom: -10%;
+  bottom: -23%;
 `;
 export const Layer3 = styled(Layers)`
   transform: translateZ(-20px) scale(1.4);
   /* height: 30%; */
+  bottom: -10%;
   z-index: 0;
 `;
 export const Layer4 = styled(Layers)`
@@ -130,21 +150,40 @@ export const Layer4 = styled(Layers)`
 export const Cover = styled.section`
   background: #171c28;
   display: block;
+  position: relative;
+  top: 99%;
+  min-height: 100vh;
+  z-index: 3;
+`;
+export const LayerCover = styled.section`
+  display: block;
   position: absolute;
   top: 99%;
   left: 0;
   right: 0;
-  height: 100vh;
+  min-height: 100vh;
   z-index: 3;
+  background-color: #171c28;
 `;
 
-export const Layer1Cover = styled(Cover)`
+export const Layer1Cover = styled.section`
+  display: block;
+  position: absolute;
+  top: 99%;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  z-index: 3;
   background-color: #7fb9d3;
 `;
-export const Layer2Cover = styled(Cover)`
+export const Layer2Cover = styled(Layer1Cover)`
+  /* min-height: 60vh; */
+  top: 96%;
   background-color: #4f91b3;
 `;
 
-export const Layer3Cover = styled(Cover)`
+export const Layer3Cover = styled(Layer1Cover)`
+  /* min-height: 50vh; */
+  top: 98%;
   background-color: #182e47;
 `;
