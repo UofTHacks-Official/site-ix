@@ -26,8 +26,9 @@ jobs:
     - name: Configure git
       env:
         TOKEN: ${{ secrets.MAIN_TOKEN }}
+        EMAIL: ${{ secrets.MAIN_EMAIL }}
       run: git config --global url."https://${TOKEN}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
-    - run: git config --global user.email "webmaster@uofthacks.com"
+    - run: git config --global user.email "${EMAIL}"
     - run: git config --global user.name "GitHub Actions Automation"
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
