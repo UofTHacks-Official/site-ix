@@ -5,8 +5,16 @@ export const Wrapper = styled.section`
   min-height: 100vh;
   min-width: 100%;
   flex: 1;
-  /* padding-top: 8.85vh; */
   color: white;
+`;
+
+export const Cover = styled.article`
+  background: #171c28;
+  display: block;
+  position: relative;
+  top: 99%;
+  min-height: 100vh;
+  z-index: 3;
 `;
 
 export const Link = styled.a`
