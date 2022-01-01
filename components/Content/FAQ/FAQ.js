@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper, Header, FAQList } from "./FAQStyles";
-import Card from "../Card/Card";
+import Card from "./Card/Card";
 
 const FAQ = (props) => {
   const faqs = require("./faqs.json");
