@@ -45,15 +45,18 @@ export const Title = styled.h1`
   font-weight: normal !important;
   font-size: 3rem;
   color: #242424;
-  margin: 5px 0;
+  margin: 0;
   z-index: 4;
+`;
+export const Star = styled.span`
+  font-size: 1.5rem;
 `;
 export const SubTitle = styled.p`
   font-family: "Proxima Nova";
   font-weight: normal !important;
   color: #f573a0;
   font-size: 1.75rem;
-  margin: 5px 0;
+  margin: 0;
   z-index: 4;
 `;
 export const Date = styled.p`
@@ -74,7 +77,7 @@ export const ApplyBtn = styled.button`
   font-size: 1.35rem;
   padding: 0.6rem 5.5rem;
   transition: all 0.2s;
-  margin: 15px 0;
+  margin: 5px 0;
   z-index: 4;
 
   &:hover {
@@ -84,9 +87,10 @@ export const ApplyBtn = styled.button`
   }
 `;
 export const SponsorLink = styled.a`
-  font-family: "Proxima Nova";
+  font-family: "Filson Pro";
   font-weight: normal !important;
-  font-size: 1.225rem;
+  margin: 5px;
+  font-size: 1rem;
   /* color: #4582c3; */
   color: #4582c3;
   text-decoration: none;

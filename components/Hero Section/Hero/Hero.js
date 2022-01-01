@@ -29,6 +29,7 @@ import {
   Layer3Cover,
   ContentWrapper,
   Wrapper2,
+  Star,
 } from "./HeroStyles";
 
 const Hero = () => {
@@ -61,7 +62,9 @@ const Hero = () => {
                 <Logo />
               </LogoContainer>
               <Title>UofTHacks IX</Title>
-              <SubTitle>Dream ✦ Build ✦ Inspire</SubTitle>
+              <SubTitle>
+                Dream <Star>✦</Star> Build <Star>✦</Star> Inspire
+              </SubTitle>
               <Date>February 4th-6th, 2022</Date>
               <ApplyBtn>Apply Now</ApplyBtn>
               <SponsorLink href="mailto:contact@uofthacks.com">
