@@ -9,14 +9,6 @@ export const Wrapper = styled.section`
   background-color: #f9f9f9;
 `;
 
-export const ImageWrapper = styled.div`
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  margin: 0;
-  padding: 0;
-`;
-
 export const FAQList = styled.section`
   display: flex;
   align-items: center;
@@ -51,11 +43,4 @@ export const Link = styled.a`
   &:hover {
     color: #2d65a0;
   }
-`;
-
-export const Divider = styled.svg`
-  position: relative;
-  display: block;
-  width: 100%;
-  margin-top: -1%;
 `;
