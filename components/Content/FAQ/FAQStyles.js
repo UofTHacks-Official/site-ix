@@ -15,6 +15,7 @@ export const ImageWrapper = styled.div`
   margin: 0;
   min-height: 9.688rem;
   min-width: 100%;
+  background-color: red;
 `;
 
 export const FAQList = styled.section`
@@ -61,4 +62,5 @@ export const Art = styled.svg`
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: pink;
 `;
