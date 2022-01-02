@@ -33,9 +33,9 @@ const FAQ = (props) => {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Img src={Divider} layout="responsive" priority />
+        <Img src={Divider} layout="responsive" lazyBoundary="0" priority />
       </ImageWrapper>
-      <Header>Frequently Asked Questions Test2</Header>
+      <Header>Frequently Asked Questions Test3</Header>
       <FAQList>
         {faqList}
         {manualCards}
