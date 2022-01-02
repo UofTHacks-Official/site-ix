@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Image from "next/image";
 
 export const Wrapper = styled.section`
   display: block;
@@ -11,6 +10,7 @@ export const Wrapper = styled.section`
 `;
 
 export const ImageWrapper = styled.div`
+  border-top: 5px #171c28 solid;
   width: 100%;
   overflow: hidden;
   line-height: 0;
