@@ -11,11 +11,11 @@ export const Wrapper = styled.section`
 `;
 
 export const ImageWrapper = styled.div`
-  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
   margin: 0;
-  min-height: 9.688rem;
-  min-width: 100%;
-  background-color: red;
+  padding: 0;
 `;
 
 export const FAQList = styled.section`
@@ -52,4 +52,10 @@ export const Link = styled.a`
   &:hover {
     color: #2d65a0;
   }
+`;
+
+export const Divider = styled.svg`
+  position: relative;
+  display: block;
+  width: 100%;
 `;
