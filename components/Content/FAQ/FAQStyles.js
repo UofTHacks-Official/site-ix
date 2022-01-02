@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   display: block;
   min-height: 100%;
   width: 100%;
@@ -12,7 +12,7 @@ export const ImageWrapper = styled.div`
   width: 100%;
 `;
 
-export const FAQList = styled.div`
+export const FAQList = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,11 +26,25 @@ export const FAQList = styled.div`
   }
 `;
 
-export const Header = styled.h1`
+export const Header = styled.h2`
   font-family: "Filson Pro";
   font-weight: normal;
   color: #242424;
   text-align: center;
-  font-size: 32px;
+  font-size: 2rem;
   margin-top: 0;
+`;
+
+export const Link = styled.a`
+  font-family: "Proxima Nova";
+  font-weight: normal !important;
+  color: #4582c3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #2d65a0;
+  }
 `;

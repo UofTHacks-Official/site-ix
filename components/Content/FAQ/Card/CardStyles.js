@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.article`
   display: block;
   margin: 1rem;
   padding: 1.5rem;
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h3`
   font-family: "Proxima Nova";
   font-weight: bold;
   color: #4582c3;
