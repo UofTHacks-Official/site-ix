@@ -7,6 +7,11 @@ export const Wrapper = styled.div`
   background-color: #f9f9f9;
 `;
 
+export const ImageWrapper = styled.div`
+  height: 9.688rem;
+  width: 100%;
+`;
+
 export const FAQList = styled.div`
   display: flex;
   align-items: center;
@@ -22,6 +27,9 @@ export const FAQList = styled.div`
 `;
 
 export const Header = styled.h1`
+  font-family: "Filson Pro";
+  font-weight: normal;
+  color: #242424;
   text-align: center;
   font-size: 32px;
   margin-top: 0;

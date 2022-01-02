@@ -1,6 +1,8 @@
 import React from "react";
-import { Wrapper, Header, FAQList } from "./FAQStyles";
+import { Wrapper, Header, FAQList, ImageWrapper } from "./FAQStyles";
 import Card from "./Card/Card";
+import Image from "next/image";
+import Divider from "/public/static/Divider.svg";
 
 const FAQ = (props) => {
   const faqs = require("./faqs.json");
@@ -30,7 +32,10 @@ const FAQ = (props) => {
 
   return (
     <Wrapper>
-      <Header>Frequently Asked Questions!</Header>
+      <ImageWrapper>
+        <Image src={Divider} layout="responsive" />
+      </ImageWrapper>
+      <Header>Frequently Asked Questions</Header>
       <FAQList>
         {faqList}
         {manualCards}
