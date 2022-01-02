@@ -8,6 +8,8 @@ export const Wrapper = styled.section`
 `;
 
 export const ImageWrapper = styled.div`
+  padding: 0;
+  margin: 0;
   height: 9.688rem;
   width: 100%;
 `;
@@ -32,7 +34,6 @@ export const Header = styled.h2`
   color: #242424;
   text-align: center;
   font-size: 2rem;
-  margin-top: 0;
 `;
 
 export const Link = styled.a`
