@@ -55,9 +55,7 @@ export const Link = styled.a`
 
 export const Divider = styled.svg`
   position: relative;
-  /* display: block; */
+  display: block;
   width: 100%;
-  padding-top: -5px;
-  margin: 0;
-  background-color: red;
+  margin-top: -1%;
 `;
