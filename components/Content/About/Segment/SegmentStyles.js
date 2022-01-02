@@ -14,7 +14,6 @@ export const Title = styled.h3`
   line-height: 30px;
   align-items: center;
   margin-bottom: 0.53vh;
-  /* color: #242424; */
   color: white;
 `;
 
@@ -25,5 +24,4 @@ export const Paragraph = styled.p`
   font-size: 1.02rem;
   line-height: 22px;
   color: #f1f1f1;
-  /* color: #35363a; */
 `;
