@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Wrapper = styled.section`
   display: block;
   min-height: 100%;
-  min-width: 100vw;
+  min-width: 100%;
   padding: 0;
   margin: 0;
   background-color: #f9f9f9;
@@ -14,7 +14,7 @@ export const ImageWrapper = styled.div`
   padding: 0;
   margin: 0;
   min-height: 9.688rem;
-  min-width: 100vw;
+  min-width: 100%;
 `;
 
 export const FAQList = styled.section`
