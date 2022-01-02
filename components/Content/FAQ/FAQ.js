@@ -50,7 +50,7 @@ const FAQ = (props) => {
           />
         </Divider>
       </ImageWrapper>
-      <Header>Frequently Asked Questions Test3</Header>
+      <Header>Frequently Asked Questions</Header>
       <FAQList>
         {faqList}
         {manualCards}

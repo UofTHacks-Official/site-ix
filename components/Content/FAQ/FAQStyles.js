@@ -10,7 +10,6 @@ export const Wrapper = styled.section`
 `;
 
 export const ImageWrapper = styled.div`
-  border-top: 5px #171c28 solid;
   width: 100%;
   overflow: hidden;
   line-height: 0;
@@ -56,6 +55,9 @@ export const Link = styled.a`
 
 export const Divider = styled.svg`
   position: relative;
+  top: -1%;
   display: block;
   width: 100%;
+  margin: 0;
+  padding: 0;
 `;
