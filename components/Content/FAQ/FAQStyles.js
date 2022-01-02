@@ -10,13 +10,13 @@ export const Wrapper = styled.section`
   background-color: #f9f9f9;
 `;
 
-// export const ImageWrapper = styled.div`
-//   padding: 0;
-//   margin: 0;
-//   min-height: 9.688rem;
-//   min-width: 100%;
-//   background-color: red;
-// `;
+export const ImageWrapper = styled.div`
+  padding: 0;
+  margin: 0;
+  min-height: 9.688rem;
+  min-width: 100%;
+  background-color: red;
+`;
 
 export const FAQList = styled.section`
   display: flex;
@@ -52,20 +52,4 @@ export const Link = styled.a`
   &:hover {
     color: #2d65a0;
   }
-`;
-
-export const Img = styled(Image)`
-  margin: 0;
-`;
-
-export const Art = styled.svg`
-  width: 100vw;
-  /* height: 100%; */
-  padding: 0;
-  background-color: pink;
-`;
-
-export const ImageWrapper = styled.div`
-  min-width: 100vw;
-  background-color: red;
 `;

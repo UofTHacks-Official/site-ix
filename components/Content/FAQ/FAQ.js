@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Wrapper,
-  Header,
-  Link,
-  FAQList,
-  ImageWrapper,
-  Img,
-  Art,
-} from "./FAQStyles";
+import { Wrapper, Header, Link, FAQList, ImageWrapper } from "./FAQStyles";
 import Card from "./Card/Card";
 import Image from "next/image";
 import Divider from "/public/static/Divider.svg";
@@ -41,9 +33,9 @@ const FAQ = (props) => {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Image src={Divider} layout="responsive" priority />
+        <Image src={Divider} layout="responsive" lazyBoundary="0" priority />
       </ImageWrapper>
-      <Header>Frequently Asked Questions Test</Header>
+      <Header>Frequently Asked Questions Test3</Header>
       <FAQList>
         {faqList}
         {manualCards}
