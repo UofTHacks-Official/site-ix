@@ -4,6 +4,8 @@ export const Wrapper = styled.section`
   display: block;
   min-height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
   background-color: #f9f9f9;
 `;
 
