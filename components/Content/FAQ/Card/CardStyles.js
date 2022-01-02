@@ -19,6 +19,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h2`
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  color: #4582c3;
   margin: 0 0 1rem 0;
   font-size: 1.3rem;
   @media (max-width: 600px) {
@@ -27,6 +30,9 @@ export const Title = styled.h2`
 `;
 
 export const Paragraph = styled.p`
+  font-family: "Proxima Nova";
+  font-weight: normal;
+  color: #242424;
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.5;
