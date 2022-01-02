@@ -10,7 +10,7 @@ export const Wrapper = styled.section`
 export const ImageWrapper = styled.div`
   padding: 0;
   margin: 0;
-  height: 9.688rem;
+  min-height: 9.688rem;
   width: 100%;
 `;
 
