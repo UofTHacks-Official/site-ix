@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, Header, FAQList, ImageWrapper } from "./FAQStyles";
+import { Wrapper, Header, Link, FAQList, ImageWrapper } from "./FAQStyles";
 import Card from "./Card/Card";
 import Image from "next/image";
 import Divider from "/public/static/Divider.svg";
@@ -19,10 +19,10 @@ const FAQ = (props) => {
         paragraph={
           <span>
             We’d be happy to help! Send the inquiry over to
-            <a href="mailto:contact@uofthacks.com">
+            <Link href="mailto:contact@uofthacks.com">
               {" "}
               contact@uofthacks.com
-            </a>{" "}
+            </Link>{" "}
             and we’ll get back to you as soon as possible.
           </span>
         }
