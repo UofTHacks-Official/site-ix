@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const Wrapper = styled.section`
   display: block;
@@ -13,7 +14,7 @@ export const ImageWrapper = styled.div`
   padding: 0;
   margin: 0;
   min-height: 9.688rem;
-  width: 100%;
+  width: 100vw;
 `;
 
 export const FAQList = styled.section`
@@ -50,4 +51,8 @@ export const Link = styled.a`
   &:hover {
     color: #2d65a0;
   }
+`;
+
+export const Img = styled(Image)`
+  margin: 0;
 `;

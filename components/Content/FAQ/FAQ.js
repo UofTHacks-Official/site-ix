@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, Header, Link, FAQList, ImageWrapper } from "./FAQStyles";
+import { Wrapper, Header, Link, FAQList, ImageWrapper, Img } from "./FAQStyles";
 import Card from "./Card/Card";
 import Image from "next/image";
 import Divider from "/public/static/Divider.svg";
@@ -33,7 +33,7 @@ const FAQ = (props) => {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Image src={Divider} layout="responsive" sizes="101vw" priority />
+        <Img src={Divider} layout="responsive" sizes="101vw" priority />
       </ImageWrapper>
       <Header>Frequently Asked Questions Test</Header>
       <FAQList>
