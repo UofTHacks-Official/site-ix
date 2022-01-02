@@ -41,19 +41,7 @@ const FAQ = (props) => {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Art
-          width="1920"
-          height="155"
-          viewBox="0 0 1920 155"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            style={{ margin: "0" }}
-            d="M0 0H1920V89.3302C1920 89.3302 1717.5 154.519 1405 154.519C1092.5 154.519 878.455 89.3302 520 89.3302C161.545 89.3302 0 155 0 155V0Z"
-            fill="#171C28"
-          />
-        </Art>
+        <Image src={Divider} layout="responsive" priority />
       </ImageWrapper>
       <Header>Frequently Asked Questions Test</Header>
       <FAQList>
