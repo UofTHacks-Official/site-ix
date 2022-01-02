@@ -56,3 +56,8 @@ export const Link = styled.a`
 export const Img = styled(Image)`
   margin: 0;
 `;
+
+export const Art = styled.svg`
+  width: 100%;
+  height: 100%;
+`;
