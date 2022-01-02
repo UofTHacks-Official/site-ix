@@ -6,7 +6,12 @@ import Image from "next/image";
 const Logo = (props) => {
   return (
     <>
-      <Image src={MooseLogo} layout="intrinsic" priority />
+      <Image
+        src={MooseLogo}
+        layout="intrinsic"
+        alt="UofTHacks IX Logo"
+        priority
+      />
     </>
   );
 };

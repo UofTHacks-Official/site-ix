@@ -1,5 +1,6 @@
 import React from "react";
-import { Wrapper, Header, FAQList } from "./FAQStyles";
+import { Wrapper, Header, Link, FAQList } from "./FAQStyles";
+import Divider from "../../Shared/Divider/Divider";
 import Card from "./Card/Card";
 
 const FAQ = (props) => {
@@ -17,10 +18,10 @@ const FAQ = (props) => {
         paragraph={
           <span>
             We’d be happy to help! Send the inquiry over to
-            <a href="mailto:contact@uofthacks.com">
+            <Link href="mailto:contact@uofthacks.com">
               {" "}
               contact@uofthacks.com
-            </a>{" "}
+            </Link>{" "}
             and we’ll get back to you as soon as possible.
           </span>
         }
@@ -30,7 +31,8 @@ const FAQ = (props) => {
 
   return (
     <Wrapper>
-      <Header>Frequently Asked Questions!</Header>
+      <Divider />
+      <Header>Frequently Asked Questions</Header>
       <FAQList>
         {faqList}
         {manualCards}
