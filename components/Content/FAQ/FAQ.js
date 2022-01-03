@@ -1,6 +1,5 @@
 import React from "react";
 import { Wrapper, Header, Link, FAQList } from "./FAQStyles";
-import Divider from "../../Shared/Divider/Divider";
 import Card from "./Card/Card";
 
 const FAQ = (props) => {
@@ -31,7 +30,6 @@ const FAQ = (props) => {
 
   return (
     <Wrapper>
-      <Divider />
       <Header>Frequently Asked Questions</Header>
       <FAQList>
         {faqList}
