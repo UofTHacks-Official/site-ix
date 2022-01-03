@@ -13,7 +13,7 @@ import Image from "next/image";
 import Amazon from "/public/static/Sponsors/Amazon.svg";
 import Ubisoft from "/public/static/Sponsors/Ubisoft.svg";
 import FDM from "/public/static/Sponsors/FDM.svg";
-import Echo3D from "/public/static/Sponsors/echo3d.png";
+import Echo3D from "/public/static/Sponsors/echo3D.png";
 import Maplesoft from "/public/static/Sponsors/Maplesoft.png";
 import PnG from "/public/static/Sponsors/ProcterAndGamble.svg";
 import QuestTrade from "/public/static/Sponsors/QuestTrade.svg";
