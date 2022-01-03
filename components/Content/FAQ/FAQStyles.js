@@ -5,6 +5,7 @@ export const Wrapper = styled.section`
   min-height: 100%;
   min-width: 100%;
   padding: 0;
+  padding-top: 2rem;
   margin: 0;
   background-color: #f9f9f9;
 `;
@@ -29,6 +30,7 @@ export const Header = styled.h2`
   color: #242424;
   text-align: center;
   font-size: 2rem;
+  margin-top: 0;
 `;
 
 export const Link = styled.a`
