@@ -12,6 +12,8 @@ import {
 import Image from "next/image";
 import Amazon from "/public/static/Sponsors/Amazon.svg";
 import Ubisoft from "/public/static/Sponsors/Ubisoft.svg";
+import echo3D from "/public/static/Sponsors/echo3D.webp";
+import Maplesoft from "/public/static/Sponsors/Maplesoft.webp";
 import FDM from "/public/static/Sponsors/FDM.svg";
 import PnG from "/public/static/Sponsors/ProcterAndGamble.svg";
 import QuestTrade from "/public/static/Sponsors/QuestTrade.svg";
@@ -79,7 +81,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
             <Image
-              src="/Echo3D.png"
+              src={echo3D}
               layout="fill"
               objectFit="contain"
               alt="Echo3D"
@@ -88,7 +90,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
             <Image
-              src="/Maplesoft.png"
+              src={Maplesoft}
               layout="fill"
               objectFit="contain"
               alt="Maplesoft"
