@@ -17,7 +17,7 @@ const Home = () => {
     <Wrapper>
       <Head>
         <title>UofTHacks IX Dev</title>
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta
           name="viewport"
