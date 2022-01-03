@@ -79,7 +79,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
             <Image
-              src="/echo3D.webp"
+              src="https://static.wixstatic.com/media/c42fea_89a8f6686ced4ea68a5b3f23fd23ff08~mv2.png/v1/fill/w_309,h_138,al_c,q_85,usm_0.66_1.00_0.01/echo3D_brand_logo_2.webp"
               layout="fill"
               objectFit="contain"
               alt="Echo3D"
@@ -88,7 +88,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
             <Image
-              src="/Maplesoft.webp"
+              src="https://seekvectorlogo.com/wp-content/uploads/2019/05/maplesoft-vector-logo.png"
               layout="fill"
               objectFit="contain"
               alt="Maplesoft"
