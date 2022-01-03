@@ -29,7 +29,7 @@ export const Header = styled.h2`
   font-weight: normal;
   color: #242424;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-top: 0;
 `;
 
