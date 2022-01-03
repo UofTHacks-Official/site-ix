@@ -13,8 +13,6 @@ import Image from "next/image";
 import Amazon from "/public/static/Sponsors/Amazon.svg";
 import Ubisoft from "/public/static/Sponsors/Ubisoft.svg";
 import FDM from "/public/static/Sponsors/FDM.svg";
-import Echo3D from "/public/static/Sponsors/echo3D.png";
-import Maplesoft from "/public/static/Sponsors/Maplesoft.png";
 import PnG from "/public/static/Sponsors/ProcterAndGamble.svg";
 import QuestTrade from "/public/static/Sponsors/QuestTrade.svg";
 import WolframLanguage from "/public/static/Sponsors/WolframLanguage.svg";
@@ -81,7 +79,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
             <Image
-              src={"/static/Sponsors/Echo3D.png"}
+              src="/static/Sponsors/Echo3D.png"
               layout="fill"
               objectFit="contain"
               alt="Echo3D"
@@ -90,7 +88,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
             <Image
-              src={"/static/Sponsors/Maplesoft.png"}
+              src="/static/Sponsors/Maplesoft.png"
               layout="fill"
               objectFit="contain"
               alt="Maplesoft"
