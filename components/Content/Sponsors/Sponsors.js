@@ -17,8 +17,8 @@ import PnG from "/public/static/Sponsors/ProcterAndGamble.svg";
 import QuestTrade from "/public/static/Sponsors/QuestTrade.svg";
 import WolframLanguage from "/public/static/Sponsors/WolframLanguage.svg";
 import Clerky from "/public/static/Sponsors/Clerky.svg";
-import Echo3D from "/public/echo3D.webp";
-import Maplesoft from "/public/Maplesoft.webp";
+import Echo3D from "/public/static/Sponsors/echo3D.webp";
+import Maplesoft from "/public/static/Sponsors/Maplesoft.webp";
 
 const Sponsors = () => {
   return (
