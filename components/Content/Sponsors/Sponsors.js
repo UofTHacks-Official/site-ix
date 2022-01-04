@@ -82,8 +82,8 @@ const Sponsors = () => {
           <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
             <Image
               src={Echo3D}
-              layout="fill"
-              objectFit="contain"
+              layout="responsive"
+              // objectFit="contain"
               alt="Echo3D"
               priority
             />
@@ -91,8 +91,8 @@ const Sponsors = () => {
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
             <Image
               src={Maplesoft}
-              layout="fill"
-              objectFit="contain"
+              layout="responsive"
+              // objectFit="contain"
               alt="Maplesoft"
               priority
             />
