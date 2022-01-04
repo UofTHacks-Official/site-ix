@@ -49,10 +49,11 @@ export const Date = styled.p`
   margin: 5px 0;
   z-index: 4;
 `;
-export const ApplyBtn = styled.button`
+export const ApplyBtn = styled.a`
   font-family: "Proxima Nova";
   font-weight: bold !important;
   background-color: #4582c3;
+  text-decoration: none;
   border: none;
   border-radius: 5px;
   color: white;

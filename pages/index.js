@@ -16,13 +16,61 @@ const Home = () => {
   return (
     <Wrapper>
       <Head>
-        <title>UofTHacks IX Dev</title>
+        <title>UofTHacks IX</title>
         <meta charSet="UTF-8"></meta>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest"></link>
+        <title>UofTHacks IX</title>
+        <meta name="title" content="UofTHacks IX" />
+        <meta
+          name="description"
+          content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dev.uofthacks.com/" />
+        <meta property="og:title" content="UofTHacks IX" />
+        <meta
+          property="og:description"
+          content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/0h5Mvzr/meta-img.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://dev.uofthacks.com/" />
+        <meta property="twitter:title" content="UofTHacks IX" />
+        <meta
+          property="twitter:description"
+          content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
+        />
+        <meta
+          property="twitter:image"
+          content="https://i.ibb.co/0h5Mvzr/meta-img.png"
+        />
       </Head>
       {/* Navigation Component Here */}
       <Main />

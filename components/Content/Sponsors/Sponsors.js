@@ -90,7 +90,7 @@ const Sponsors = () => {
           </BronzeSponsor>
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
             <Image
-              src={Echo3D}
+              src={Maplesoft}
               layout="fill"
               objectFit="contain"
               alt="Maplesoft"
