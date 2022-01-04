@@ -41,16 +41,30 @@ const Home = () => {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest"></link>
+        <title>UofTHacks IX</title>
+        <meta name="title" content="UofTHacks IX" />
         <meta
           name="description"
           content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
         />
-        <meta name="keywords" content="UofTHacks, UofT, Hackathon" />
-        <meta name="author" content="UofTHacks" />
-        <meta property="og:title" content="UofTHacks IX" />
+
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.uofthacks.com/" />
+        <meta property="og:url" content="https://dev.uofthacks.com/" />
+        <meta property="og:title" content="UofTHacks IX" />
+        <meta
+          property="og:description"
+          content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
+        />
         <meta property="og:image" content="/meta-img.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://dev.uofthacks.com/" />
+        <meta property="twitter:title" content="UofTHacks IX" />
+        <meta
+          property="twitter:description"
+          content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
+        />
+        <meta property="twitter:image" content="/meta-img.png" />
       </Head>
       {/* Navigation Component Here */}
       <Main />
