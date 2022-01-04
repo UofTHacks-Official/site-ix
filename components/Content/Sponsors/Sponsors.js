@@ -82,17 +82,17 @@ const Sponsors = () => {
           <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
             <Image
               src={Echo3D}
-              layout="responsive"
-              // objectFit="contain"
+              layout="fill"
+              objectFit="contain"
               alt="Echo3D"
               priority
             />
           </BronzeSponsor>
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
             <Image
-              src={Maplesoft}
-              layout="responsive"
-              // objectFit="contain"
+              src={Echo3D}
+              layout="fill"
+              objectFit="contain"
               alt="Maplesoft"
               priority
             />
