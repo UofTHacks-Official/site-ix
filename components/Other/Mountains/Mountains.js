@@ -12,11 +12,11 @@ import {
   Layer4Cover,
 } from "./MountainsStyles";
 
-import Art0 from "/public/static/New0.svg";
-import Art1 from "/public/static/New1.svg";
-import Art2 from "/public/static/New2.svg";
-import Art3 from "/public/static/New3.svg";
-import Art4 from "/public/static/New4.svg";
+import Art0 from "/public/static/Mountains/0.svg";
+import Art1 from "/public/static/Mountains/1.svg";
+import Art2 from "/public/static/Mountains/2.svg";
+import Art3 from "/public/static/Mountains/3.svg";
+import Art4 from "/public/static/Mountains/4.svg";
 
 const Mountains = () => {
   return (
