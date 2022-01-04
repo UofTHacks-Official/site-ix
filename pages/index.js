@@ -55,7 +55,10 @@ const Home = () => {
           property="og:description"
           content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
         />
-        <meta property="og:image" content="/meta-img.png" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/0h5Mvzr/meta-img.png"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://dev.uofthacks.com/" />
@@ -64,7 +67,10 @@ const Home = () => {
           property="twitter:description"
           content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
         />
-        <meta property="twitter:image" content="/meta-img.png" />
+        <meta
+          property="twitter:image"
+          content="https://i.ibb.co/0h5Mvzr/meta-img.png"
+        />
       </Head>
       {/* Navigation Component Here */}
       <Main />
