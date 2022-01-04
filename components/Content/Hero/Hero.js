@@ -24,7 +24,12 @@ const Hero = () => {
           Dream <Star>✦</Star> Build <Star>✦</Star> Inspire
         </SubTitle>
         <Date>February 4th-6th, 2022</Date>
-        <ApplyBtn>Apply Now</ApplyBtn>
+        <ApplyBtn
+          href="https://8q5bjocsvwr.typeform.com/to/F5xSzpYg"
+          target="_blank"
+        >
+          Apply Now
+        </ApplyBtn>
         <SponsorLink href="mailto:contact@uofthacks.com">
           Interested in sponsoring?
         </SponsorLink>
