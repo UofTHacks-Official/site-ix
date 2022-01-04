@@ -41,6 +41,16 @@ const Home = () => {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest"></link>
+        <meta
+          name="description"
+          content="Join 500+ hackers for a great weekend of learning, building, and networking at University of Toronto's largest annual hackathon 💻"
+        />
+        <meta name="keywords" content="UofTHacks, UofT, Hackathon" />
+        <meta name="author" content="UofTHacks" />
+        <meta property="og:title" content="UofTHacks IX" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.uofthacks.com/" />
+        <meta property="og:image" content="/meta-img.png" />
       </Head>
       {/* Navigation Component Here */}
       <Main />
