@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/static/Logo.svg"/>
+  <img src="/public/static/UI/Logo.svg"/>
   <h1>UofTHacks IX</h1>
   <h4>💭 Dream  •  🔨 Build  •  ✨ Inspire</h4>
   <a href="https://www.uofthacks.com/"><p>www.uofthacks.com</p></a>
@@ -39,6 +39,7 @@ npm install
 <h3 id="gs-step1">Switching to develop branch</h3>
 
 In order to contribute, you must switch to develop branch or create your own and make changes there.
+
 ```
 git switch develop
 ```
