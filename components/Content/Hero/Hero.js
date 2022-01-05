@@ -30,7 +30,7 @@ const Hero = () => {
         >
           Apply Now
         </ApplyBtn>
-        <SponsorLink href="mailto:contact@uofthacks.com">
+        <SponsorLink href="mailto:sponsors@uofthacks.com">
           Interested in sponsoring?
         </SponsorLink>
       </Content>
