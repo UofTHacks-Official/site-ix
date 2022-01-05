@@ -6,7 +6,7 @@ export const Wrapper = styled.article`
   margin: auto auto 3.7rem auto;
 `;
 
-export const Title = styled.h3`
+export const Title = styled.h2`
   font-family: Filson Pro;
   font-style: normal;
   font-weight: 500;

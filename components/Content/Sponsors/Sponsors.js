@@ -12,10 +12,10 @@ import {
 import Image from "next/image";
 import Amazon from "/public/static/Sponsors/Amazon.svg";
 import Ubisoft from "/public/static/Sponsors/Ubisoft.svg";
-import FDM from "/public/static/Sponsors/FDM.svg";
+import FDMLogo from "/public/static/Sponsors/FDM.svg";
 import PnG from "/public/static/Sponsors/ProcterAndGamble.svg";
 import QuestTrade from "/public/static/Sponsors/QuestTrade.svg";
-import WolframLanguage from "/public/static/Sponsors/WolframLanguage.svg";
+import WolframLanguage from "/public/static/Sponsors/WolframLanguage.png";
 import Clerky from "/public/static/Sponsors/Clerky.svg";
 import Echo3D from "/public/static/Sponsors/echo3D.webp";
 import Maplesoft from "/public/static/Sponsors/Maplesoft.webp";
@@ -27,7 +27,11 @@ const Sponsors = () => {
       <Header>Our sponsors</Header>
       <SponsorGrid>
         <Tier>
-          <GoldSponsor href="https://amazon.com/" target="_blank">
+          <GoldSponsor
+            href="https://amazon.com/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={Amazon}
               layout="fill"
@@ -36,7 +40,11 @@ const Sponsors = () => {
               priority
             />
           </GoldSponsor>
-          <GoldSponsor href="https://ubisoft.com" target="_blank">
+          <GoldSponsor
+            href="https://ubisoft.com"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={Ubisoft}
               layout="fill"
@@ -47,10 +55,24 @@ const Sponsors = () => {
           </GoldSponsor>
         </Tier>
         <Tier>
-          <SilverSponsor href="https://www.fdmgroup.com/" target="_blank">
-            <Image src={FDM} layout="fill" objectFit="contain" alt="FDM" />
+          <SilverSponsor
+            href="https://www.fdmgroup.com/"
+            rel="noopener"
+            target="_blank"
+          >
+            <Image
+              src={FDMLogo}
+              layout="fill"
+              objectFit="contain"
+              alt="FDM"
+              priority
+            />
           </SilverSponsor>
-          <SilverSponsor>
+          <SilverSponsor
+            href="https://pg.ca/en-ca/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={PnG}
               layout="fill"
@@ -59,7 +81,11 @@ const Sponsors = () => {
               priority
             />
           </SilverSponsor>
-          <SilverSponsor href="https://www.questrade.com/" target="_blank">
+          <SilverSponsor
+            href="https://www.questrade.com/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={QuestTrade}
               layout="fill"
@@ -70,7 +96,11 @@ const Sponsors = () => {
           </SilverSponsor>
         </Tier>
         <Tier>
-          <BronzeSponsor href="https://www.clerky.com/" target="_blank">
+          <BronzeSponsor
+            href="https://www.clerky.com/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={Clerky}
               layout="fill"
@@ -79,7 +109,11 @@ const Sponsors = () => {
               priority
             />
           </BronzeSponsor>
-          <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
+          <BronzeSponsor
+            href="https://www.echo3d.co/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={Echo3D}
               layout="fill"
@@ -88,7 +122,11 @@ const Sponsors = () => {
               priority
             />
           </BronzeSponsor>
-          <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
+          <BronzeSponsor
+            href="https://www.maplesoft.com/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={Maplesoft}
               layout="fill"
@@ -97,7 +135,11 @@ const Sponsors = () => {
               priority
             />
           </BronzeSponsor>
-          <BronzeSponsor href="https://www.wolfram.com/" target="_blank">
+          <BronzeSponsor
+            href="https://www.wolfram.com/"
+            rel="noopener"
+            target="_blank"
+          >
             <Image
               src={WolframLanguage}
               layout="fill"

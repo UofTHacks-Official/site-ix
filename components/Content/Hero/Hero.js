@@ -26,6 +26,7 @@ const Hero = () => {
         <Date>February 4th-6th, 2022</Date>
         <ApplyBtn
           href="https://8q5bjocsvwr.typeform.com/to/F5xSzpYg"
+          rel="noopener"
           target="_blank"
         >
           Apply Now

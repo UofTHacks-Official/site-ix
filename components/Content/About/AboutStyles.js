@@ -25,7 +25,7 @@ export const Link = styled.a`
   line-height: 22px;
   text-decoration: none;
 
-  color: #4582c3;
+  color: #a0c3d2;
   transition: color 0.2s;
 
   &:hover {
