@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Segment from "./Segment/Segment";
 import City from "/public/static/City/City.svg";
-import Stars from "./City/Stars";
+import Stars from "./Stars/Stars";
 
 const About = () => {
   return (
