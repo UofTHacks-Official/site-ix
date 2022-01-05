@@ -56,7 +56,6 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="Procter and Gamble"
-              priority
             />
           </SilverSponsor>
           <SilverSponsor href="https://www.questrade.com/" target="_blank">
@@ -65,7 +64,6 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="QuestTrade"
-              priority
             />
           </SilverSponsor>
         </Tier>
@@ -76,7 +74,6 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="Clerky"
-              priority
             />
           </BronzeSponsor>
           <BronzeSponsor href="https://www.echo3d.co/" target="_blank">
@@ -85,7 +82,6 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="Echo3D"
-              priority
             />
           </BronzeSponsor>
           <BronzeSponsor href="https://www.maplesoft.com/" target="_blank">
@@ -94,7 +90,6 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="Maplesoft"
-              priority
             />
           </BronzeSponsor>
           <BronzeSponsor href="https://www.wolfram.com/" target="_blank">
@@ -103,7 +98,6 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="Wolfram Language"
-              priority
             />
           </BronzeSponsor>
         </Tier>
