@@ -42,8 +42,7 @@ export const GoldSponsor = styled.a`
   border-radius: 15px;
   transition: all 0.3s ease 0s;
   &:hover {
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 80px rgba(0, 0, 0, 0.25));
+    transform: scale(1.1);
   }
 `;
 
