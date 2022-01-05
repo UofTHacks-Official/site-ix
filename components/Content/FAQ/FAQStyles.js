@@ -35,8 +35,8 @@ export const Header = styled.h2`
 
 export const Link = styled.a`
   font-family: "Proxima Nova";
-  font-weight: normal !important;
-  color: #4582c3;
+  font-weight: bold !important;
+  color: #3973b1;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-transition: all 0.2s;
