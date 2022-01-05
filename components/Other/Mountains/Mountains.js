@@ -22,22 +22,52 @@ const Mountains = () => {
   return (
     <>
       <Layer0>
-        <Image src={Art0} layout="responsive" alt="Mountain-Layer0" priority />
+        <Image
+          src={Art0}
+          layout="responsive"
+          alt="Mountain-Layer0"
+          priority
+          loading="eager"
+        />
       </Layer0>
       <Layer1>
-        <Image src={Art1} layout="responsive" alt="Mountain-Layer1" priority />
+        <Image
+          src={Art1}
+          layout="responsive"
+          alt="Mountain-Layer1"
+          priority
+          loading="eager"
+        />
         <Layer1Cover />
       </Layer1>
       <Layer2>
-        <Image src={Art2} layout="responsive" alt="Mountain-Layer2" priority />
+        <Image
+          src={Art2}
+          layout="responsive"
+          alt="Mountain-Layer2"
+          priority
+          loading="eager"
+        />
         <Layer2Cover />
       </Layer2>
       <Layer3>
-        <Image src={Art3} layout="responsive" alt="Mountain-Layer3" priority />
+        <Image
+          src={Art3}
+          layout="responsive"
+          alt="Mountain-Layer3"
+          priority
+          loading="eager"
+        />
         <Layer3Cover />
       </Layer3>
       <Layer4>
-        <Image src={Art4} layout="responsive" alt="Mountain-Layer4" priority />
+        <Image
+          src={Art4}
+          layout="responsive"
+          alt="Mountain-Layer4"
+          priority
+          loading="eager"
+        />
         <Layer4Cover />
       </Layer4>
     </>
