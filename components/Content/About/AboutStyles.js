@@ -15,6 +15,11 @@ export const Cover = styled.article`
   top: 99%;
   min-height: 100vh;
   z-index: 3;
+  background: radial-gradient(
+    85.44% 78.29% at 50% 96.02%,
+    #1e2639 0%,
+    #171c28 100%
+  );
 `;
 
 export const Link = styled.a`
@@ -32,4 +37,12 @@ export const Link = styled.a`
     transition: color 0.2s;
     color: #265587;
   }
+`;
+export const CityContainer = styled.div`
+  position: relative;
+  box-sizing: border-box;
+  left: 0;
+  bottom: -2px;
+  z-index: -1;
+  min-width: 100%;
 `;
