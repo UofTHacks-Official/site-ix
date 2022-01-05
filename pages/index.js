@@ -17,12 +17,9 @@ const Home = () => {
     <Wrapper>
       <Head>
         <title>UofTHacks IX</title>
-        <meta charSet="UTF-8"></meta>
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -40,7 +37,7 @@ const Home = () => {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="/site.webmanifest"></link>
+        <link rel="manifest" href="/site.webmanifest" />
         <title>UofTHacks IX</title>
         <meta name="title" content="UofTHacks IX" />
         <meta

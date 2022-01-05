@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  box-sizing: border-box;
   width: 100%;
   overflow: hidden;
   line-height: 0;
@@ -9,9 +8,11 @@ export const Wrapper = styled.div`
   padding: 0;
 `;
 
-export const Shape = styled.svg`
-  position: relative;
+export const Art = styled.svg`
+  position: absolute;
   display: block;
   width: 100%;
-  margin-top: -1%;
+  height: auto;
+  bottom: 0;
+  left: 0;
 `;
