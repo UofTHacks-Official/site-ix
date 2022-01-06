@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   line-height: 0;
   margin: 0;
   padding: 0;
+  z-index: -1;
 `;
 
 export const Art = styled.svg`
@@ -15,4 +16,5 @@ export const Art = styled.svg`
   height: auto;
   bottom: 0;
   left: 0;
+  z-index: -1;
 `;

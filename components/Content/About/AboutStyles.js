@@ -39,7 +39,7 @@ export const Link = styled.a`
   }
 `;
 export const CityContainer = styled.div`
-  position: relative;
+  position: absolute;
   box-sizing: border-box;
   left: 0;
   bottom: -2px;
