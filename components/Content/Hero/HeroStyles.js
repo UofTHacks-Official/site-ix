@@ -73,7 +73,7 @@ export const SponsorLink = styled.a`
   font-family: "Filson Pro";
   font-weight: normal !important;
   margin: 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #4582c3;
   text-decoration: none;
   z-index: 4;
@@ -82,4 +82,11 @@ export const SponsorLink = styled.a`
     transition: all 0.2s;
     color: #2d65a0;
   }
+`;
+
+export const MentorLink = styled(SponsorLink)`
+  font-family: "Proxima Nova";
+  font-weight: bold !important;
+  font-size: 0.8rem;
+  color: #f573a0;
 `;
