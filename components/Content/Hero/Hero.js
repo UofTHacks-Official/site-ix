@@ -10,6 +10,7 @@ import {
   ApplyBtn,
   SponsorLink,
   Star,
+  MentorLink,
 } from "./HeroStyles";
 
 const Hero = () => {
@@ -31,6 +32,9 @@ const Hero = () => {
         >
           Apply Now
         </ApplyBtn>
+        <MentorLink href="https://8q5bjocsvwr.typeform.com/to/U9H30gMe">
+          or apply to be a mentor here!
+        </MentorLink>
         <SponsorLink href="mailto:sponsors@uofthacks.com">
           Interested in sponsoring?
         </SponsorLink>

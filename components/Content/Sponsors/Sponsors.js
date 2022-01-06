@@ -19,6 +19,8 @@ import WolframLanguage from "/public/static/Sponsors/WolframLanguage.png";
 import Clerky from "/public/static/Sponsors/Clerky.svg";
 import Echo3D from "/public/static/Sponsors/echo3D.webp";
 import Maplesoft from "/public/static/Sponsors/Maplesoft.webp";
+import Glimpse from "/public/static/Sponsors/Glimpse.svg";
+import GoogleCloud from "/public/static/Sponsors/GoogleCloud.svg";
 
 const Sponsors = () => {
   return (
@@ -145,6 +147,32 @@ const Sponsors = () => {
               layout="fill"
               objectFit="contain"
               alt="Wolfram Language"
+              priority
+            />
+          </BronzeSponsor>
+          <BronzeSponsor
+            href="https://cloud.google.com/"
+            rel="noopener"
+            target="_blank"
+          >
+            <Image
+              src={GoogleCloud}
+              layout="fill"
+              objectFit="contain"
+              alt="Google Cloud"
+              priority
+            />
+          </BronzeSponsor>
+          <BronzeSponsor
+            href="https://www.joinglimpse.com/"
+            rel="noopener"
+            target="_blank"
+          >
+            <Image
+              src={Glimpse}
+              layout="fill"
+              objectFit="contain"
+              alt="Glimpse"
               priority
             />
           </BronzeSponsor>
