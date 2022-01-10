@@ -1,9 +1,11 @@
 import Head from "next/head";
 import styled from "styled-components";
 import Main from "../components/Main";
+import Navigation from "../components/Layout/Navigation/Navigation";
 
 const Wrapper = styled.main`
   display: flex;
+  scroll-behavior: smooth;
   flex-direction: column;
   align-items: center;
   height: 100%;
@@ -69,7 +71,7 @@ const Home = () => {
           content="https://i.ibb.co/0h5Mvzr/meta-img.png"
         />
       </Head>
-      {/* Navigation Component Here */}
+      <Navigation />
       <Main />
       {/* Footer Component Here */}
     </Wrapper>
