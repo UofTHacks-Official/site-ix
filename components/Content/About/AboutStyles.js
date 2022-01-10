@@ -9,6 +9,7 @@ export const Wrapper = styled.section`
 `;
 
 export const Cover = styled.article`
+  padding-top: 60px;
   background: #171c28;
   display: block;
   position: relative;

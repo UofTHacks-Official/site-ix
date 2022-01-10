@@ -12,7 +12,8 @@ const Parallax = styled.section`
   min-width: 100vw;
   z-index: 4;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 `;
 
 const Main = () => {

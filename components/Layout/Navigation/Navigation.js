@@ -1,8 +1,36 @@
+import {
+  Container,
+  NavLinks,
+  NavItem,
+  LogoContainer,
+} from "./NavigationStyles";
+import Logo from "../../Shared/Logo";
+
 const Navigation = () => {
   return (
-    <div>
-      <a href="">Home</a>
-    </div>
+    <Container>
+      <NavLinks>
+        <li>
+          <NavItem href="/">
+            <LogoContainer>
+              <Logo />
+            </LogoContainer>
+          </NavItem>
+        </li>
+        <li>
+          <NavItem href="#about">About</NavItem>
+        </li>
+        <li>
+          <NavItem href="#sponsors">Sponsors</NavItem>
+        </li>
+        <li>
+          <NavItem href="#faq">FAQ</NavItem>
+        </li>
+        <li>
+          <NavItem href="mailto:contact@uofthacks.com">Contact</NavItem>
+        </li>
+      </NavLinks>
+    </Container>
   );
 };
 export default Navigation;

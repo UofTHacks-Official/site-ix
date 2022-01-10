@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+html, body {
+  scroll-behaviour: smooth;
+}
     @font-face {
       font-family: 'Filson Pro';
       src: url('/fonts/FilsonProMedium.otf') format('opentype');

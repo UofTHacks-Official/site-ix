@@ -30,11 +30,13 @@ const FAQ = (props) => {
 
   return (
     <Wrapper>
-      <Header>Frequently Asked Questions</Header>
-      <FAQList>
-        {faqList}
-        {manualCards}
-      </FAQList>
+      <div id="faq">
+        <Header>Frequently Asked Questions</Header>
+        <FAQList>
+          {faqList}
+          {manualCards}
+        </FAQList>
+      </div>
     </Wrapper>
   );
 };

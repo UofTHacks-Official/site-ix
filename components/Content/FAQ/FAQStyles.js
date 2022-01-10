@@ -25,6 +25,7 @@ export const FAQList = styled.section`
 `;
 
 export const Header = styled.h2`
+  padding-top: 60px;
   font-family: "Filson Pro";
   font-weight: normal;
   color: #242424;

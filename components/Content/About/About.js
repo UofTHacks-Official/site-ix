@@ -9,7 +9,7 @@ import Stars from "./Stars/Stars";
 const About = () => {
   return (
     <Wrapper>
-      <Cover>
+      <Cover id="about">
         <Segment
           title={"About UofTHacks"}
           paragraph={`
