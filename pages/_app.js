@@ -3,6 +3,8 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 html, body {
   scroll-behaviour: smooth;
+  margin: 0;
+  padding: 0;
 }
     @font-face {
       font-family: 'Filson Pro';
