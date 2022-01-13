@@ -12,20 +12,19 @@ export const Wrapper = styled.footer`
 `;
 
 export const DividerWrapper = styled.div`
-  /* box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   overflow: hidden;
   line-height: 0;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; */
-  position: relative;
-  min-width: 100%;
+  background-color: #f9f9f9;
 `;
 
 export const Shape = styled.svg`
   position: relative;
   display: block;
+  height: 100%;
   width: 100%;
   overflow: hidden;
 `;
