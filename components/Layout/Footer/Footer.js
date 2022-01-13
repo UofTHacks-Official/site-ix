@@ -77,6 +77,7 @@ const Footer = () => {
                 <a
                   href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
                   target="_blank"
+                  rel="noopener"
                 >
                   MLH Code of Conduct
                 </a>
@@ -85,22 +86,35 @@ const Footer = () => {
                 <a
                   href="https://drive.google.com/file/d/1IWtrHG71oZBrUntRCzP6kLvY-gEiFqPQ/view?usp=sharing"
                   target="_blank"
+                  rel="noopener"
                 >
                   Sponsorship Package
                 </a>
               </li>
               <li>
-                <a href="" target="">
+                <a
+                  href="https://www.instagram.com/uofthacks/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   Meet Our Team
                 </a>
               </li>
               <li>
-                <a href="https://github.com/UofTHacks-Official" target="_blank">
+                <a
+                  href="https://github.com/UofTHacks-Official"
+                  target="_blank"
+                  rel="noopener"
+                >
                   GitHub Page
                 </a>
               </li>
               <li>
-                <a href="https://viii.uofthacks.com/" target="_blank">
+                <a
+                  href="https://viii.uofthacks.com/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   2021 Site
                 </a>
               </li>
@@ -113,6 +127,7 @@ const Footer = () => {
                   <a
                     href="https://www.instagram.com/uofthacks/"
                     target="_blank"
+                    rel="noopener"
                   >
                     <IconContainer>
                       <InstagramIcon />
@@ -120,14 +135,22 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/uofthacks/" target="_blank">
+                  <a
+                    href="https://www.twitter.com/uofthacks/"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     <IconContainer>
                       <TwitterIcon />
                     </IconContainer>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/uofthacks" target="_blank">
+                  <a
+                    href="https://www.facebook.com/uofthacks"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     <IconContainer>
                       <FacebookIcon />
                     </IconContainer>
@@ -139,7 +162,7 @@ const Footer = () => {
           <Third_Container>
             <MailingContainer>
               <form onSubmit={(e) => formSubmit(e)} id="unsubscribeForm">
-                <label for="email">Sign up for our Mailing List!</label>
+                <label htmlFor="email">Sign up for our Mailing List!</label>
                 <div>
                   <input
                     onChange={(e) => setEmail(e.target.value)}
