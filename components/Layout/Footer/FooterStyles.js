@@ -138,6 +138,7 @@ export const MailingContainer = styled.div`
     background-color: #4582c3;
     color: white;
     border: none;
+    border-radius: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 0px;
@@ -166,7 +167,6 @@ export const MailingContainer = styled.div`
     padding: 8px 14px;
     width: 90%;
     outline: none;
-    border-radius: 0;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 0px;
@@ -182,7 +182,6 @@ export const MailingContainer = styled.div`
     border: #4582c3 0.4px solid;
     font-family: "Proxima Nova";
     color: #242424;
-    border-collapse: separate;
   }
 
   @media only screen and (max-width: 1240px) {
