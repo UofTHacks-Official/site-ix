@@ -166,6 +166,7 @@ export const MailingContainer = styled.div`
     padding: 8px 14px;
     width: 90%;
     outline: none;
+    border-radius: 0;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 0px;
