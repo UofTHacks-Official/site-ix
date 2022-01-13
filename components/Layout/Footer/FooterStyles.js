@@ -184,6 +184,25 @@ export const MailingContainer = styled.div`
     color: #242424;
   }
 
+  @media only screen and (max-width: 960px) {
+    & form input[type="submit"],
+    & form div input[type="email"] {
+      border-radius: 0;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      -webkit-border-top-right-radius: 0px;
+      -webkit-border-bottom-right-radius: 0px;
+      -webkit-border-top-left-radius: 0px;
+      -webkit-border-bottom-left-radius: 0px;
+      -moz-border-top-right-radius: 0px;
+      -moz-border-bottom-right-radius: 0px;
+      -moz-border-top-left-radius: 0px;
+      -moz-border-bottom-left-radius: 0px;
+    }
+  }
+
   @media only screen and (max-width: 1240px) {
     text-align: center;
   }

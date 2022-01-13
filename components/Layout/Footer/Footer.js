@@ -25,6 +25,7 @@ const Footer = () => {
     "Sign Up",
     "#4582c3",
     "#FFFFFF",
+    "pointer",
   ]);
 
   const formSubmit = (e) => {
@@ -39,7 +40,7 @@ const Footer = () => {
       .catch((err) => console.log(err))
       .then((res) => {
         console.log(res);
-        setSubmitStatus([true, "Signed Up!", "#45C26D", "#969696"]);
+        setSubmitStatus([true, "Signed Up!", "#45C26D", "#969696", "default"]);
       });
   };
 
@@ -173,7 +174,6 @@ const Footer = () => {
                     required
                     style={{
                       borderColor: submitStatus[2],
-                      backgroundColor: submitStatus[3],
                     }}
                     disabled={submitStatus[0]}
                   />
@@ -183,7 +183,28 @@ const Footer = () => {
                     style={{
                       backgroundColor: submitStatus[2],
                       borderColor: submitStatus[3],
+                      cursor: submitStatus[4],
                     }}
+                    onMouseOver={() =>
+                      submitStatus[0]
+                        ? null
+                        : setSubmitStatus([
+                            submitStatus[0],
+                            submitStatus[1],
+                            "#346497",
+                            submitStatus[3],
+                          ])
+                    }
+                    onMouseLeave={() =>
+                      submitStatus[0]
+                        ? null
+                        : setSubmitStatus([
+                            submitStatus[0],
+                            submitStatus[1],
+                            "#4582c3",
+                            submitStatus[3],
+                          ])
+                    }
                     value={submitStatus[1]}
                     disabled={submitStatus[0]}
                   />
