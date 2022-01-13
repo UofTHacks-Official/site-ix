@@ -181,6 +181,7 @@ export const MailingContainer = styled.div`
     border: #4582c3 0.4px solid;
     font-family: "Proxima Nova";
     color: #242424;
+    border-collapse: separate;
   }
 
   @media only screen and (max-width: 1240px) {
