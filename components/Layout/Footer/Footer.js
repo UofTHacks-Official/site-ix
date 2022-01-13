@@ -1,4 +1,4 @@
-import Divider from "../../Shared/Divider/Divider";
+import Link from "next/link";
 import Image from "next/image";
 import FooterDivider from "/public/static/FooterDivider.svg";
 import styled from "styled-components";
@@ -63,9 +63,9 @@ const Footer = () => {
           <span>Made with 💗 by the Design and Web Dev Team</span>
           <ul>
             <li>
-              <a href="/privacy" target="_blank">
+              <Link href="/privacy" target="_blank">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
               <a href="" target="_blank">
