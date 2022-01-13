@@ -56,20 +56,26 @@ const Footer = () => {
   return (
     <Wrapper>
       {/* <DividerWrapper> */}
-      <Image src={FooterDivider} layout="responsive" priority />
+      <Image src={FooterDivider} layout="responsive" priority alt="footer" />
       {/* </DividerWrapper> */}
       <Cover>
         <First_Container>
           <span>Made with 💗 by the Design and Web Dev Team</span>
           <ul>
             <li>
-              <a href="/privacy">Privacy Policy</a>
+              <a href="/privacy" target="_blank">
+                Privacy Policy
+              </a>
             </li>
             <li>
-              <a href="">MLH Code of Conduct</a>
+              <a href="" target="_blank">
+                MLH Code of Conduct
+              </a>
             </li>
             <li>
-              <a href="">2021 Site</a>
+              <a href="" target="_blank">
+                2021 Site
+              </a>
             </li>
           </ul>
         </First_Container>
