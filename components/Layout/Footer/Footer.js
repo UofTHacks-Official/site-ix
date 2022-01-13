@@ -77,7 +77,7 @@ const Footer = () => {
                 <a
                   href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   MLH Code of Conduct
                 </a>
@@ -86,7 +86,7 @@ const Footer = () => {
                 <a
                   href="https://drive.google.com/file/d/1IWtrHG71oZBrUntRCzP6kLvY-gEiFqPQ/view?usp=sharing"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Sponsorship Package
                 </a>
@@ -95,7 +95,7 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/uofthacks/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Meet Our Team
                 </a>
@@ -104,7 +104,7 @@ const Footer = () => {
                 <a
                   href="https://github.com/UofTHacks-Official"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   GitHub Page
                 </a>
@@ -113,7 +113,7 @@ const Footer = () => {
                 <a
                   href="https://viii.uofthacks.com/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   2021 Site
                 </a>
@@ -127,7 +127,7 @@ const Footer = () => {
                   <a
                     href="https://www.instagram.com/uofthacks/"
                     target="_blank"
-                    rel="noopener"
+                    rel="noreferrer"
                   >
                     <IconContainer>
                       <InstagramIcon />
@@ -138,7 +138,7 @@ const Footer = () => {
                   <a
                     href="https://www.twitter.com/uofthacks/"
                     target="_blank"
-                    rel="noopener"
+                    rel="noreferrer"
                   >
                     <IconContainer>
                       <TwitterIcon />
@@ -149,7 +149,7 @@ const Footer = () => {
                   <a
                     href="https://www.facebook.com/uofthacks"
                     target="_blank"
-                    rel="noopener"
+                    rel="noreferrer"
                   >
                     <IconContainer>
                       <FacebookIcon />
