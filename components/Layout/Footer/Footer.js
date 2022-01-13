@@ -1,13 +1,48 @@
+import React, { useState } from "react";
 import Link from "next/link";
+import InstagramIcon from "../../Shared/Icons/InstagramIcon";
+import TwitterIcon from "../../Shared/Icons/TwitterIcon";
+import FacebookIcon from "../../Shared/Icons/FacebookIcon";
 import {
   Wrapper,
   DividerWrapper,
   Shape,
   Cover,
   First_Container,
+  Second_Container,
+  Third_Container,
+  IconContainer,
+  Content,
+  Socials,
+  MailingContainer,
+  CompanyContainer,
 } from "./FooterStyles";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [submitStatus, setSubmitStatus] = useState([
+    false,
+    "Sign Up",
+    "#4582c3",
+    "#FFFFFF",
+  ]);
+
+  const formSubmit = (e) => {
+    e.preventDefault();
+    const action = `https://script.google.com/macros/s/AKfycbwnuktDcCkwVEluIyidhI4KJeot4t_JrKuZYDOHqhJjNidodKZuSUqfzAwZl5Yrfqsj/exec?req=add&email=${email}`;
+    const body = { req: "add", email: email };
+    console.log(email);
+    fetch(action, {
+      method: "POST",
+      body: JSON.stringify(body),
+    })
+      .catch((err) => console.log(err))
+      .then((res) => {
+        console.log(res);
+        setSubmitStatus([true, "Signed Up!", "#45C26D", "#969696"]);
+      });
+  };
+
   return (
     <Wrapper>
       <DividerWrapper>
@@ -29,26 +64,112 @@ const Footer = () => {
         </Shape>
       </DividerWrapper>
       <Cover>
-        <First_Container>
-          <span>Made with 💗 by the Design and Web Dev Team</span>
-          <ul>
-            <li>
-              <Link href="/privacy" target="_blank">
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                MLH Code of Conduct
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                2021 Site
-              </a>
-            </li>
-          </ul>
-        </First_Container>
+        <Content>
+          <First_Container>
+            <span>Made with 💗 by the UofTHacks IX Team</span>
+            <ul>
+              <li>
+                <Link href="/privacy" target="_blank">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                  target="_blank"
+                >
+                  MLH Code of Conduct
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1IWtrHG71oZBrUntRCzP6kLvY-gEiFqPQ/view?usp=sharing"
+                  target="_blank"
+                >
+                  Sponsorship Package
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  Meet Our Team
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/UofTHacks-Official" target="_blank">
+                  GitHub Page
+                </a>
+              </li>
+              <li>
+                <a href="https://viii.uofthacks.com/" target="_blank">
+                  2021 Site
+                </a>
+              </li>
+            </ul>
+          </First_Container>
+          <Second_Container>
+            <Socials>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.instagram.com/uofthacks/"
+                    target="_blank"
+                  >
+                    <IconContainer>
+                      <InstagramIcon />
+                    </IconContainer>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/uofthacks/" target="_blank">
+                    <IconContainer>
+                      <TwitterIcon />
+                    </IconContainer>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/uofthacks" target="_blank">
+                    <IconContainer>
+                      <FacebookIcon />
+                    </IconContainer>
+                  </a>
+                </li>
+              </ul>
+            </Socials>
+          </Second_Container>
+          <Third_Container>
+            <MailingContainer>
+              <form onSubmit={(e) => formSubmit(e)} id="unsubscribeForm">
+                <label for="email">Sign up for our Mailing List!</label>
+                <div>
+                  <input
+                    onChange={(e) => setEmail(e.target.value)}
+                    id="emailInput"
+                    type="email"
+                    name="email"
+                    placeholder="email address"
+                    required
+                    style={{
+                      borderColor: submitStatus[2],
+                      backgroundColor: submitStatus[3],
+                    }}
+                    disabled={submitStatus[0]}
+                  />
+                  <input
+                    type="submit"
+                    name="submit"
+                    style={{
+                      backgroundColor: submitStatus[2],
+                      borderColor: submitStatus[3],
+                    }}
+                    value={submitStatus[1]}
+                    disabled={submitStatus[0]}
+                  />
+                </div>
+              </form>
+            </MailingContainer>
+            <CompanyContainer>UofTHacks</CompanyContainer>
+          </Third_Container>
+        </Content>
       </Cover>
     </Wrapper>
   );

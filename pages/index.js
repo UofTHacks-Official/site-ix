@@ -109,7 +109,7 @@ const Parallax = styled.section`
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navigation />
       <Parallax>
         <Head>
@@ -171,7 +171,7 @@ const Home = () => {
         <Content />
         <Footer />
       </Parallax>
-    </div>
+    </>
   );
 };
 export default Home;
