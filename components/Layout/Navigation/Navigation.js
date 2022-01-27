@@ -3,8 +3,10 @@ import {
   NavLinks,
   NavItem,
   LogoContainer,
+  BannerContainer,
 } from "./NavigationStyles";
 import Logo from "../../Shared/Logo";
+import Banner from "./Banner";
 
 const Navigation = () => {
   return (
@@ -30,6 +32,7 @@ const Navigation = () => {
           <NavItem href="mailto:contact@uofthacks.com">Contact</NavItem>
         </li>
       </NavLinks>
+      <Banner />
     </Container>
   );
 };
