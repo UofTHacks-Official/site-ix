@@ -34,7 +34,7 @@ export const NavItem = styled.a`
     cursor: pointer;
     color: #2d65a0;
   }
-  @media only screen and (max-width: 740px) {
+  @media only screen and (max-width: 860px) {
     display: none;
   }
 `;

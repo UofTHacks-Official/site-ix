@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Mountains from "./Other/Mountains/Mountains";
 import Content from "./Content/Content";
-import Navigation from "../components/Layout/Navigation/Navigation";
+// import Navigation from "../components/Layout/Navigation/Navigation";
 import Footer from "../components/Layout/Footer/Footer";
 
 const Parallax = styled.section`
@@ -21,7 +21,6 @@ const Parallax = styled.section`
 const Main = () => {
   return (
     <Parallax>
-      <Navigation />
       <Mountains />
       <Content />
       <Footer />

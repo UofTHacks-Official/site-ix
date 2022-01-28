@@ -2,20 +2,29 @@ import styled from "styled-components";
 
 const Wrapper = styled.svg`
   position: fixed;
+  width:100px;
+  height: 175px;
   top: 0;
   right: 2rem;
+
+  @media only screen and (max-width: 860px) {
+    width: 50px;
+    height: 87.5px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    right: 1rem;
+  }
 `;
 
 const Banner = () => {
   return (
     <Wrapper
-      width="100"
-      height="175"
       viewBox="0 0 100 175"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_1283_15)">
+      <g clipPath="url(#clip0_1283_15)">
         <path
           d="M5.54504 68.1025C5.54504 67.4412 6.95801 67.1512 7.90508 67.1512H92.4923C93.4393 67.1512 93.6328 67.4412 93.6328 68.1025V158.212C93.6302 158.597 93.5103 158.971 93.2892 159.285C93.0682 159.6 92.7564 159.84 92.3955 159.972L51.9362 174.776C50.9649 175.08 49.9238 175.08 48.9525 174.776L7.35772 159.975C6.51757 159.675 5.54504 158.884 5.54504 158.222V68.1025Z"
           fill="#122F4C"

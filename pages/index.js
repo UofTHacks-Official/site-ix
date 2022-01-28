@@ -1,9 +1,10 @@
+import React, {useState, useCallback, useEffect} from 'react';
 import Head from "next/head";
 import styled from "styled-components";
+import Navigation from '../components/Layout/Navigation/Navigation';
 import Main from "../components/Main";
 import Mountains from "../components/Other/Mountains/Mountains";
 import Content from "../components/Content/Content";
-import Navigation from "../components/Layout/Navigation/Navigation";
 import Footer from "../components/Layout/Footer/Footer";
 
 // const Wrapper = styled.main`
@@ -108,10 +109,11 @@ const Parallax = styled.section`
 `;
 
 const Home = () => {
+
   return (
     <>
-      <Navigation />
-      <Parallax>
+    <Navigation />
+      <Parallax id="parallax">
         <Head>
           <title>UofTHacks IX</title>
           <meta charSet="UTF-8" />
