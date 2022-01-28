@@ -1,12 +1,15 @@
+import React, {useState, useEffect, useCallback} from "react";
 import {
   Container,
   NavLinks,
   NavItem,
-  LogoContainer,
+  LogoContainer
 } from "./NavigationStyles";
 import Logo from "../../Shared/Logo";
+import Banner from "./Banner";
 
-const Navigation = () => {
+const Navigation = (props) => {
+
   return (
     <Container>
       <NavLinks>
@@ -30,6 +33,7 @@ const Navigation = () => {
           <NavItem href="mailto:contact@uofthacks.com">Contact</NavItem>
         </li>
       </NavLinks>
+        <Banner />
     </Container>
   );
 };
