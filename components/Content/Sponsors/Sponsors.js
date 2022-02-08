@@ -1,5 +1,4 @@
 import React from "react";
-import Divider from "../../Shared/Divider/Divider";
 import {
   Wrapper,
   Header,
@@ -22,11 +21,11 @@ import Glimpse from "/public/static/Sponsors/Glimpse.svg";
 import GoogleCloud from "/public/static/Sponsors/GoogleCloud.svg";
 import Stickermule from "/public/static/Sponsors/Stickermule.svg";
 import UofTEng from "/public/static/Sponsors/UofTEng.svg";
+import Varient from "/public/static/Sponsors/Varient.svg";
 
 const Sponsors = () => {
   return (
     <Wrapper>
-      <Divider />
       <div id="sponsors">
         <Header>Our sponsors</Header>
         <SponsorGrid>
@@ -188,6 +187,19 @@ const Sponsors = () => {
                 layout="fill"
                 objectFit="contain"
                 alt="Stickermule"
+                priority
+              />
+            </BronzeSponsor>
+            <BronzeSponsor
+              href="http://www.uofthacks.com/"
+              rel="noopener"
+              target="_blank"
+            >
+              <Image
+                src={Varient}
+                layout="fill"
+                objectFit="contain"
+                alt="Varient"
                 priority
               />
             </BronzeSponsor>
