@@ -1,4 +1,5 @@
 import React from "react";
+import Divider from "../../Shared/Divider/Divider";
 import {
   Wrapper,
   Header,
@@ -26,6 +27,7 @@ import Varient from "/public/static/Sponsors/Varient.svg";
 const Sponsors = () => {
   return (
     <Wrapper>
+      <Divider />
       <div id="sponsors">
         <Header>Our sponsors</Header>
         <SponsorGrid>
