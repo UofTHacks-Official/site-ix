@@ -26,17 +26,14 @@ const Hero = () => {
         </SubTitle>
         <Date>February 4th-6th, 2022</Date>
         <ApplyBtn
-          href="https://8q5bjocsvwr.typeform.com/to/F5xSzpYg"
+          href=""
           rel="noopener"
           target="_blank"
         >
-          Apply Now
+          Applications are now closed
         </ApplyBtn>
-        <MentorLink href="https://8q5bjocsvwr.typeform.com/to/U9H30gMe">
-          or apply to be a mentor here!
-        </MentorLink>
-        <SponsorLink href="mailto:sponsors@uofthacks.com">
-          Interested in sponsoring?
+        <SponsorLink href="">
+          See you next year!
         </SponsorLink>
       </Content>
     </Wrapper>
